@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h> 
 #include <SDL/SDL.h>
@@ -11,9 +12,10 @@ typedef struct background
 SDL_Surface *img_bg;
 SDL_Rect position_bg;
 SDL_Rect position_collision;
-SDL_Rect scroll;
+SDL_Rect scroll;}
 
 void initialiser_background(background *bg);
 
 void afficher_background(background bg, SDL_Surface * ecran);
-void scrolling_bg(int clic,background *bg);
+void scrolling_bg(int clic,background *bg);}
+#endif

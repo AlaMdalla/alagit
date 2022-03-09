@@ -6,7 +6,7 @@
 #include <SDL/SDL_mixer.h>
 #include <SDL/SDL_ttf.h>
 
-
+int a,b;
 typedef struct background
 {
 SDL_Surface *img_bg;
@@ -17,5 +17,7 @@ SDL_Rect scroll;}
 void initialiser_background(background *bg);
 
 void afficher_background(background bg, SDL_Surface * ecran);
-void scrolling_bg(int clic,background *bg);}
+void animerBackground( Background * e);
+int collisionPP( Personne p, SDL_Surface * Masque);
+void scrolling (background * b, int direction, int pasAvancement); soit void scrolling (SDL_Rect * b, int direction ,int pasAvancement);
 #endif

@@ -19,5 +19,6 @@ void initialiser_background(background *bg);
 void afficher_background(background bg, SDL_Surface * ecran);
 void animerBackground( Background * e);
 int collisionPP( Personne p, SDL_Surface * Masque);
-void scrolling (background * b, int direction, int pasAvancement); soit void scrolling (SDL_Rect * b, int direction ,int pasAvancement);
+void scrolling (background * b, int direction, int pasAvancement); 
+ void scrolling (SDL_Rect * b, int direction ,int pasAvancement);
 #endif

@@ -6,7 +6,7 @@
 #include <SDL/SDL_mixer.h>
 #include <SDL/SDL_ttf.h>
 
-int a,b;
+
 typedef struct background
 {
 SDL_Surface *img_bg;
